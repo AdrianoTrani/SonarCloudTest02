@@ -3,6 +3,10 @@ package logic;
 public class VeryVeryDummyVideochat {
 	private Boolean hasAWebcam;
 	
+	public static void main(String[] arg){
+		System.out.println("Hello Word");
+	}
+	
 	public VeryVeryDummyVideochat(Boolean camera) {
 		this.hasAWebcam = camera;
 	}
